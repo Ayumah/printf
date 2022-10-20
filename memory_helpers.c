@@ -54,7 +54,7 @@ return (NULL);
 output->buffer = malloc(sizeof(char) * 1024);
 if (output->buffer == NULL)
 {
-ree(output);
+free(output);
 return (NULL);
 }
 output->start = output->buffer;
