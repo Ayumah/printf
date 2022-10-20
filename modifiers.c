@@ -2,7 +2,7 @@
 *  File: modifiers.c
 * Auth: Brennan D Baraban
 */
-#include "holberton.h"
+#include "main.h"
 unsigned int print_width(buffer_t *output, unsigned int printed,
 				unsigned char flags, int wid);
 unsigned int print_string_width(buffer_t *output,
@@ -72,4 +72,4 @@ for (wid -= printed; wid > 0; wid--)
 ret += _memcpy(output, &width, 1);
 }
 return (ret);
-}
+i}
