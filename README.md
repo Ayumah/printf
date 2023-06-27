@@ -20,7 +20,7 @@ _printf - produces output according to a format
 
 . print_big_string - Non printable characters (0 < ASCII value < 32 or >= 127)
 
-. print_rev - prints a string in reverse
+. print_reverse - prints a string in reverse
 
 . print_rot13 - prints a string using rot13
 
