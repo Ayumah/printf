@@ -18,6 +18,15 @@ typedef struct _flags
 	int hash;
 } _flags_t;
 
+/* Length Modifier Macros */
+#define SHORT 1
+#define LONG 2
+
+int get_precision(va_list list, const char *f, char *i);
+unsigned char get_length(const char *f, char *i);
+int get_width(va_list list, const char *f, char *i);
+int is_digit(char c);
+
 /**
  * struct get_function - struct to choose the right function depending
  * on the format specifier passed to _printf()

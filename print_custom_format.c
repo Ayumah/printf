@@ -95,6 +95,7 @@ int print_rot13(va_list l, _flags_t *f)
 	return (j);
 }
 
+
 /**
  * print_percent - prints a percent
  * @l: va_list arguments from _printf
@@ -105,5 +106,6 @@ int print_percent(va_list l, _flags_t *f)
 {
 	(void)l;
 	(void)f;
+
 	return (_putchar('%'));
 }
